@@ -9,5 +9,6 @@ public class TalkyAppApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TalkyAppApplication.class, args);
 	}
-
 }
+
+// domain::QuickChat

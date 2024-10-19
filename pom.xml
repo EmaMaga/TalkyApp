@@ -50,6 +50,25 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-websocket</artifactId>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.igniterealtime.smack/smack -->
+		<dependency>
+			<groupId>org.igniterealtime.smack</groupId>
+			<artifactId>smack</artifactId>
+			<version>3.2.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.igniterealtime.smack/smack-extensions -->
+		<dependency>
+			<groupId>org.igniterealtime.smack</groupId>
+			<artifactId>smack-extensions</artifactId>
+			<version>4.4.8</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.igniterealtime.smack/smack-tcp -->
+		<dependency>
+			<groupId>org.igniterealtime.smack</groupId>
+			<artifactId>smack-tcp</artifactId>
+			<version>4.4.8</version>
+		</dependency>
+
 
 		<dependency>
 			<groupId>org.postgresql</groupId>
@@ -70,6 +89,11 @@
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.modelmapper</groupId>
+			<artifactId>modelmapper</artifactId>
+			<version>3.0.0</version>
 		</dependency>
 	</dependencies>
 
