@@ -1,6 +1,6 @@
-package Emanuel.TalkyApp.Repositories;
+package emanuel.talkyapp.Repositories;
 
-import Emanuel.TalkyApp.Models.UserEntity;
+import emanuel.talkyapp.Models.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<UserEntity, Long> {

@@ -1,7 +1,7 @@
-package Emanuel.TalkyApp.DTO;
+package emanuel.talkyapp.DTO;
 
-import Emanuel.TalkyApp.Models.ChatRoomEntity;
-import Emanuel.TalkyApp.Models.MessageEntity;
+import emanuel.talkyapp.Models.ChatRoomEntity;
+import emanuel.talkyapp.Models.MessageEntity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -11,7 +11,7 @@ import java.util.Set;
 
 @Data
 @AllArgsConstructor @NoArgsConstructor
-public class userDTO {
+public class UserDTO {
     private Long id;
     private String name;
     private String password;

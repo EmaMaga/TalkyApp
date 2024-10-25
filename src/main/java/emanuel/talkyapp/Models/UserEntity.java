@@ -1,4 +1,4 @@
-package Emanuel.TalkyApp.Models;
+package emanuel.talkyapp.Models;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -24,8 +24,7 @@ public class UserEntity {
     private List<MessageEntity> sentMessages;
     @OneToMany(mappedBy = "reciver",cascade = CascadeType.ALL)
     private List<MessageEntity> recivedMessages;
-    @ManyToMany(mappedBy = "users")
+    @ManyToMany(targetEntity = ChatRoomEntity.class,fetch = FetchType.LAZY)
     private Set<ChatRoomEntity> chatList = new HashSet<>();
-
 
 }

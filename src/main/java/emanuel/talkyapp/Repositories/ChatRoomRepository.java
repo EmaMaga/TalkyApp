@@ -1,6 +1,6 @@
-package Emanuel.TalkyApp.Repositories;
+package emanuel.talkyapp.Repositories;
 
-import Emanuel.TalkyApp.Models.ChatRoomEntity;
+import emanuel.talkyapp.Models.ChatRoomEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ChatRoomRepository extends JpaRepository<ChatRoomEntity,Long> {

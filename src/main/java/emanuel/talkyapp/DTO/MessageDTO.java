@@ -1,14 +1,14 @@
-package Emanuel.TalkyApp.DTO;
+package emanuel.talkyapp.DTO;
 
-import Emanuel.TalkyApp.Models.ChatRoomEntity;
-import Emanuel.TalkyApp.Models.UserEntity;
+import emanuel.talkyapp.Models.ChatRoomEntity;
+import emanuel.talkyapp.Models.UserEntity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor @AllArgsConstructor
-public class messageDTO {
+public class MessageDTO {
     private Long id;
     private String content;
     private UserEntity sender;
